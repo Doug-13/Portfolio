@@ -1,0 +1,71 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+.title {
+  text-transform: uppercase;
+  color: var(--primary);
+}
+hr {
+  color: var(--primary);
+}
+img {
+  z-index: 1;
+}
+
+.subtitle {
+  color: var(--primary);
+}
+.block {
+  margin-bottom: 120px;
+}
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: var(--secondary);
+}
+
+.estrelas {
+  color: var(--estrelas);
+  padding: 10px;
+}
+
+.title .button {
+  text-transform: lowercase;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+  border-color: var(--botton);
+}
+
+.button-primay {
+  background-color: var(--botton);
+}
+
+.button-primay:hover {
+  background-color: var(--botton-hover);
+  border-color: var(--botton-hover);
+}
+.button-primay-outline {
+  border-color: var(--primary);
+  color: var(--botton);
+}
+.button-primay-outline:hover {
+  background-color: var(--botton);
+  color: var(--primary);
+  border-color: var(--botton-hover);
+}
+
+.depoimento img {
+  border-radius: 50%;
+  max-height: 100px;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary);
+}

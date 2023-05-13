@@ -1,0 +1,11 @@
+:root {
+  --primary: rgb(255, 255, 255);
+  --botton: rgb(203, 38, 109);
+  --botton-hover: rgb(200, 137, 164);
+  --secondary: rgb(136, 127, 127);
+  --light: #f0f0f0;
+  --medium: #ffffff;
+  --dark: #f37e01;
+  --texto: rgb(210, 202, 202);
+  --estrelas: rgb(246, 207, 11);
+}

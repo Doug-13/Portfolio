@@ -1,0 +1,99 @@
+@media (min-width: 992px) {
+  #header .nav-link {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #header .navbar-collapse {
+    width: 100%;
+  }
+}
+@media (max-width: 991.98px) {
+  #servicos a.destaque .img-container {
+    height: 170px;
+  }
+  #servicos a.destaque .img-container {
+    max-height: 120px;
+  }
+}
+@media (max-width: 991.98px) {
+  #slider h1 {
+    font-size: 30px;
+  }
+  #slider .front {
+    font-size: 15px;
+  }
+  #slider .back {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1200.98px) {
+  #conhecimentos .estrelas {
+    font-size: 25px;
+  }
+}
+@media (max-width: 475.98px) {
+  #conhecimentos .estrelas {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1208px) {
+  #experiencia .card {
+    width: 420px;
+    margin: 15px;
+  }
+  #experiencia .card:hover {
+    height: 700px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #experiencia .card {
+    width: 300px;
+    margin: 20px;
+    padding: 10px 15px;
+    margin-top: 50px;
+  }
+  #experiencia .card:hover {
+    height: 850px;
+  }
+}
+
+@media (max-width: 778.98px) {
+  #experiencia .card {
+    width: 70%;
+    margin: 50px;
+    padding: 10px 15px;
+  }
+  #experiencia .card:hover {
+    height: 400px;
+  }
+}
+
+@media (max-width: 650.98px) {
+  #experiencia .container {
+    margin: 10px;
+  }
+  #experiencia .container {
+    margin-block-end: 20%;
+  }
+  #experiencia .card .caixaImg img {
+    width: 10rem;
+    height: 9rem;
+    margin: auto;
+    display: block;
+  }
+  #experiencia .card {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 460.98px) {
+  #experiencia .card:hover {
+    height: 790px;
+  }
+}

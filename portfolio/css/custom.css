@@ -1,0 +1,333 @@
+body,
+html {
+  font-family: 'Roboto', sans-serif;
+  /* overflow: hidden; */
+  height: 100%;
+  background: repeating-linear-gradient(#090a0f 0%, #1b2735 50%, #090a0f 100%);
+}
+
+#header {
+  width: 100%;
+  background-color: #ffff;
+  transition: background ease-out 0.2s;
+  font-size: 1.2em;
+}
+#header .navbar-collapse {
+  width: auto;
+  justify-content: end;
+}
+#header .navbar-brand {
+  width: 100px;
+}
+
+#header img {
+  border-radius: 50%;
+}
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: #000000;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: solid 4px transparent;
+  transition: 0.5s;
+}
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--dark);
+  color: var(--dark);
+  transform: translateY(-10px);
+}
+#header button {
+  background-color: #f37e01;
+  color: #ffffff;
+}
+
+#header button:hover {
+  border: 1px solid #f66725;
+  background-color: rgb(250, 244, 243);
+  color: #f66725;
+}
+
+#slider img {
+  border-radius: 10%;
+
+  padding: 20px;
+}
+
+#slider h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #ffff;
+  font-size: 50px;
+  /* Funções para efeito Máq de escrever */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2s steps(13), blink 800ms steps(13);
+  border-right: 5px solid rgb(255, 255, 255);
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 70%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: rgb(255, 255, 255);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+#slider .front {
+  display: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2s steps(25);
+  /* animation-delay: 3s; */
+  /* infinite alternate,
+    blink 800ms steps(13) infinite normal; */
+  border-right: 5px solid rgb(255, 255, 255);
+}
+#slider .back {
+  display: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(25);
+  /* animation-delay: -1s; */
+  /* infinite alternate,
+    blink 800ms steps(13) infinite normal; */
+  border-right: 5px solid rgb(255, 255, 255);
+}
+#sobre img {
+  border-radius: 5%;
+  opacity: 0.9;
+  padding: 20px;
+}
+
+#formacao a.destaque {
+  display: block;
+  background-color: #ffff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+
+#formacao a.destaque:hover {
+  background-color: #ffff;
+  box-shadow: 0px 0px 10px 0px rgba(0red, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+
+#facul {
+  font-weight: 700;
+}
+
+#formacao a.destaque .img-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12rem;
+  height: 10rem;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(15, 13, 13, 0.5);
+  border-radius: 4%;
+}
+
+#conhecimentos a.destaque {
+  display: block;
+  background-color: #ffff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  color: #000;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+#conhecimentos .estrelas {
+  font-size: 30px;
+}
+
+#conhecimentos a.destaque:hover {
+  background-color: #ffff;
+  box-shadow: 0px 0px 10px 0px rgba(0red, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+#conhecimentos p {
+  background-color: #ffff;
+  box-shadow: 0px 0px 10px 0px rgba(0red, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+#conhecimentos a.destaque .img-container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+/* experiência */
+#experiencia .container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  text-align: center;
+}
+
+#experiencia .card {
+  position: relative;
+  max-width: 500px;
+  height: 200px;
+  background: #ffffff;
+  margin: 30px;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+#experiencia .card:hover {
+  height: 620px;
+}
+#experiencia .card .caixaImg {
+  position: relative;
+  color: #ffffff;
+  max-width: 200px;
+  text-align: center;
+  height: 190px;
+  top: -60px;
+  margin: auto;
+  display: block;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(15, 13, 13, 0.5);
+}
+#experiencia .card .bodyCard {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+
+#experiencia .card:hover .bodyCard {
+  margin-top: -40px;
+
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0.3s;
+}
+
+#experiencia .card .caixaImg img {
+  border-radius: 4px;
+  max-width: 100%;
+  width: 14rem;
+  height: 12rem;
+  text-align: center;
+}
+/* DEPOIMENTOS */
+
+#depoimentos .depoimento {
+  background-color: var(--light);
+  border-radius: 5px;
+  display: flex;
+  padding: 30px;
+}
+#depoimentos .depoimento .quote {
+  max-width: 2rem;
+}
+
+#depoimentos .depoimento .name span {
+  background-color: var(--light);
+  color: #000;
+  font-weight: 700;
+}
+#depoimentos form .btn {
+  background-color: #f37e01;
+  color: #ffffff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+#depoimentos form .btn:hover {
+  border: 1px solid #f66725;
+  background-color: rgb(250, 244, 243);
+  color: #f66725;
+}
+/* <!-- RODAPÉ --> */
+#contato {
+  background-color: #ffff;
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contato h2,
+h4 {
+  color: #000;
+}
+#contato h4 {
+  color: #000;
+}
+
+#contato .redesSociais,
+#contato .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+#contato .redesSociais a,
+#contato .menu li {
+  list-style: none;
+}
+
+#contato .redesSociais a {
+  font-size: 2em;
+  margin: 0 10px;
+  color: #000000;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+#contato .menu li {
+  font-size: 1.2em;
+  margin: 0 10px;
+  color: #000000;
+  display: inline-block;
+  transition: 0.5s;
+  opacity: 0.75;
+}
+#contato .redesSociais a:hover {
+  transform: translateY(-10px);
+}
+#contato .menu li:hover {
+  transform: translateY(-10px);
+  opacity: 1;
+}
