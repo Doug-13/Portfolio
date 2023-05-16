@@ -273,6 +273,10 @@ html {
   background-color: rgb(250, 244, 243);
   color: #f66725;
 }
+#depoimentos a {
+  text-decoration: none;
+}
+
 /* <!-- RODAPÉ --> */
 #contato {
   background-color: #ffff;
